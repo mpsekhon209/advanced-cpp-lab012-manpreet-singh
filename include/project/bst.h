@@ -46,6 +46,7 @@ private:
     BSTNode* minNode(BSTNode* node) const;
     BSTNode* maxNode(BSTNode* node) const;
     int heightRecursive(const BSTNode* node) const;
+    int balancedHeightRecursive(const BSTNode* node) const;
     bool isBalancedRecursive(const BSTNode* node) const;
     void clearRecursive(BSTNode* node);
 
